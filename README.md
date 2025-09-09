@@ -3,7 +3,6 @@
 This project maps source and destination GeoIP data from Wireshark packet captures onto an interactive world map using Folium.
 
 It filters out broadcast, multicast, and anycast traffic, keeping only unicast connections.
-![firefox_SfZFW7xQEh](https://github.com/user-attachments/assets/b341a66c-d4e1-4563-a28c-bc204902bfe1)
 
 # Quick Start
 1. Capture network traffic in Wireshark and save as ```.pcapng```.
@@ -11,9 +10,9 @@ It filters out broadcast, multicast, and anycast traffic, keeping only unicast c
 2. Place the file into the ```pcaps/``` folder.
 
 3. Run the program:
-```
-py main.py
-```
+	```
+	py main.py
+	```
 4. Select your capture when prompted.
 
 5. The script will write a CSV and an ```.html``` map into the ```outputs/``` folder.
@@ -32,9 +31,9 @@ py main.py
         -  ```GeoLite2-City.mmdb```
         -  ```GeoLite2-Country.mmdb```
 -  Folium: install with
-```
-pip install folium
-```
+	```
+	pip install folium
+	```
 
 # Installation
 
@@ -67,27 +66,27 @@ pip install folium
 -  Place your ```.pcapng``` capture file into the ```pcaps/``` folder.
 
 -  Open PowerShell and navigate to your project directory, for example:
-```
-PS C:\Users\YourName> F:
-PS F:> cd "F:\Projects\networkMap"
-```
+	```
+	PS C:\Users\YourName> F:
+	PS F:> cd "F:\Projects\networkMap"
+	```
 - If you haven't downloaded folium yet, now is the time to do so:
-```
-pip install folium
-```
+	```
+	pip install folium
+	```
 - Run the script:
-```
-py main.py
-```
+	```
+	py main.py
+	```
 
 - Choose a ```.pcapng``` file when prompted:
 
-```
-Select a .pcapng file to process:
-1: example.pcapng
-2: test1.pcapng
-Enter a number: 1
-```
+	```
+	Select a .pcapng file to process:
+	1: example.pcapng
+	2: test1.pcapng
+	Enter a number: 1
+	```
 
 -  The script will:
 
@@ -98,13 +97,14 @@ Enter a number: 1
     -  Generate a Folium world map and save it as an ```.html``` file in ```outputs/```
 
 -  Example output:
-```
-Done! Wrote deduplicated CSV to outputs\example.csv
-Plotted 6 nodes and 28 lines
-Map saved to outputs\example.html
-```
+	```
+	Done! Wrote deduplicated CSV to outputs\example.csv
+	Plotted 6 nodes and 28 lines
+	Map saved to outputs\example.html
+	```
 
 -  Open the ```.html``` file in a browser to view your interactive map.
+
 
 
 

@@ -22,6 +22,7 @@ py main.py
 
 # Requirements
 
+-  Windows
 -  Python: https://www.python.org/downloads/
 -  Wireshark: https://www.wireshark.org/download.html
     -  Used to capture traffic into .pcapng files. Place captures in the network-map/pcaps/ folder.
@@ -100,3 +101,4 @@ Map saved to outputs\example.html
 ```
 
 -  Open the .html file in a browser to view your interactive map.
+

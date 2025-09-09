@@ -71,6 +71,10 @@ pip install folium
 PS C:\Users\YourName> F:
 PS F:> cd "F:\Projects\networkMap"
 ```
+- If you haven't downloaded folium yet, now is the time to do so:
+```
+pip install folium
+```
 - Run the script:
 ```
 py main.py
@@ -101,5 +105,6 @@ Map saved to outputs\example.html
 ```
 
 -  Open the ```.html``` file in a browser to view your interactive map.
+
 
 

@@ -4,6 +4,8 @@ This project maps source and destination GeoIP data from Wireshark packet captur
 
 It filters out broadcast, multicast, and anycast traffic, keeping only unicast connections.
 
+![firefox_SfZFW7xQEh](https://github.com/user-attachments/assets/3ac5b23c-4687-4649-aaac-dd1ab5769ca0)
+
 # Quick Start
 1. Capture network traffic in Wireshark and save as ```.pcapng```.
 
@@ -104,6 +106,7 @@ It filters out broadcast, multicast, and anycast traffic, keeping only unicast c
 	```
 
 -  Open the ```.html``` file in a browser to view your interactive map.
+
 
 
 

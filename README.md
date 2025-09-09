@@ -25,12 +25,12 @@ py main.py
 -  Windows
 -  Python: https://www.python.org/downloads/
 -  Wireshark: https://www.wireshark.org/download.html
-    -  Used to capture traffic into .pcapng files. Place captures in the network-map/pcaps/ folder.
+    -  Used to capture traffic into ```.pcapng files.``` Place captures in the ```network-map/pcaps/``` folder.
 -  MaxMind GeoIP: https://dev.maxmind.com/geoip/geolite2-free-geolocation-data/
-    -  Requires a free account to download. You will receive a .zip containing:
-        -  GeoLite2-ASN.mmdb
-        -  GeoLite2-City.mmdb
-        -  GeoLite2-Country.mmdb
+    -  Requires a free account to download. You will receive a ```.zip``` containing:
+        -  ```GeoLite2-ASN.mmdb```
+        -  ```GeoLite2-City.mmdb```
+        -  ```GeoLite2-Country.mmdb```
 -  Folium: install with
 ```
 pip install folium
@@ -50,11 +50,11 @@ pip install folium
 
 -  Download the MaxMind GeoIP databases (requires creating a free account).
 
--  Place the three .mmdb files into one of Wireshark’s default database directories:
+-  Place the three ```.mmdb``` files into one of Wireshark’s default database directories:
 
-    - C:\ProgramData\GeoIP
+    - ```C:\ProgramData\GeoIP```
 
-    - C:\GeoIP
+    - ```C:\GeoIP```
 
 -  Open Wireshark, go to Edit → Preferences → Name Resolution.
 
@@ -64,7 +64,7 @@ pip install folium
 
 ### Step 3: Run the program
 
--  Place your .pcapng capture file into the pcaps/ folder.
+-  Place your ```.pcapng``` capture file into the ```pcaps/``` folder.
 
 -  Open PowerShell and navigate to your project directory, for example:
 ```
@@ -76,7 +76,7 @@ PS F:> cd "F:\Projects\networkMap"
 py main.py
 ```
 
-- Choose a .pcapng file when prompted:
+- Choose a ```.pcapng``` file when prompted:
 
 ```
 Select a .pcapng file to process:
@@ -89,9 +89,9 @@ Enter a number: 1
 
     -  Run tshark with GeoIP fields enabled
 
-    -  Write a deduplicated CSV into the outputs/ folder
+    -  Write a deduplicated CSV into the ```outputs/``` folder
 
-    -  Generate a Folium world map and save it as an .html file in outputs/
+    -  Generate a Folium world map and save it as an ```.html``` file in ```outputs/```
 
 -  Example output:
 ```
@@ -100,5 +100,6 @@ Plotted 6 nodes and 28 lines
 Map saved to outputs\example.html
 ```
 
--  Open the .html file in a browser to view your interactive map.
+-  Open the ```.html``` file in a browser to view your interactive map.
+
 

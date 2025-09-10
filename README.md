@@ -21,6 +21,17 @@ It filters out broadcast, multicast, and anycast traffic, keeping only unicast c
 
 6. Open the ```.html``` file in a browser to view the interactive world map.
 
+# Configuration
+
+The only current configuration supported is changing the location of the destination IP (your local ip capture).
+To do so, you need to edit this variable in ```config.py```:
+
+```
+# Dummy coords for local ips
+# Add a location of your choice to represent your home traffic in (latitude, longitude)
+local = (45.4,-75.7)
+```
+
 # Requirements
 
 -  Windows
@@ -106,6 +117,7 @@ It filters out broadcast, multicast, and anycast traffic, keeping only unicast c
 	```
 
 -  Open the ```.html``` file in a browser to view your interactive map.
+
 
 
 
